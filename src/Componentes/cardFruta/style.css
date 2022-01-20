@@ -1,26 +1,37 @@
 #container{
+    width: 38vw;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+
+    box-shadow: 0 10px 10px -2px #989898;
+  -moz-box-shadow: 0 10px 10px -2px #989898;
+  -webkit-box-shadow: 0 10px 10px -2px #989898;
+
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 #informacoes{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    width: 35vw;
 }
 
 #nutrientes{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
     align-items: center;
+
+    width: 35vw;
 }
 
 #botoes{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    align-self: center;
 }

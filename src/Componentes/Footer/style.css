@@ -1,6 +1,6 @@
 footer {
 
-    background-color: #d34040;
+    background-color: rgb(137, 189, 35);
     color: #fff;
 
     text-align: center;
@@ -10,7 +10,5 @@ footer {
 
     margin: 1rem;
     padding: 1rem;
-
-    width: 100vw;
 
    }

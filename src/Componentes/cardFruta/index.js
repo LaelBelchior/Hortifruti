@@ -10,20 +10,21 @@ export default function Fruta(props){
 
     return(
 
-        <Container maxWidth='sm' id='container'>
+        <Container id='container'>
 
-            <div id='informacoes'>
-                <p>{props.genero}</p>
-                <p>{props.nome}</p>
-                <p>{props.familia}</p>
-                <p>{props.ordem}</p>
+            <h1>{props.nome}</h1>
+            <div id='informacoes'>    
+                <p>Gênero: {props.genero}</p>
+                <p>Família: {props.familia}</p>
+                <p>Ordem: {props.ordem}</p>
             </div>
+            <h4>NUTRIENTES</h4>
             <div id='nutrientes'>
-                <p>{props.carboidratos}</p>
-                <p>{props.proteinas}</p>
-                <p>{props.gorduras}</p>
-                <p>{props.calorias}</p>
-                <p>{props.acucares}</p>
+                <p>Carbo: {props.carboidratos}</p>
+                <p>Proteinas: {props.proteinas}</p>
+                <p>Gorduras: {props.gorduras}</p>
+                <p>Calorias: {props.calorias}</p>
+                <p>Açúcares: {props.acucares}</p>
             </div>
             <div id='botoes'>
                 <IconButton color="secondary">

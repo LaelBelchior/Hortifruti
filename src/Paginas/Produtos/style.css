@@ -1,8 +1,33 @@
+#produtos{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
 #listagem{
 
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
 
+}
+
+#botao-finalizar-div{
+    align-self: center;
+}
+
+#botao-finalizar{
+    width: 10vw;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.botao-quantidade{
+    margin-left: 0.3rem;
+    margin-right: 1.5rem;
 }

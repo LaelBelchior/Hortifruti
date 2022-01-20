@@ -1,16 +1,19 @@
 import React, { Component } from 'react'
-import Produtos from './Paginas/Produtos'
-
-import Container from '@material-ui/core/Container'
+import { BrowserRouter } from 'react-router-dom'
+import Header from './Componentes/Header'
+import Footer from './Componentes/Footer'
+import Routes from './Routes'
 
 class App extends Component{
 
   render(){
 
     return(
-      <Container>
-        <Produtos />
-      </Container>
+      <BrowserRouter>
+        <Header />
+        <Routes />
+        <Footer />
+      </BrowserRouter>
     )
   }
 }

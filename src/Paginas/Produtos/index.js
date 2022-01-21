@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import Fruta from '../../Componentes/cardFruta'
 import {Button} from "@material-ui/core"
 import {Link} from 'react-router-dom'
+import {AuthContext} from '../../Providers/auth'
 
 import './style.css'
 
@@ -9,6 +10,7 @@ export default function Produtos(){
 
     const [frutas, setFrutas] = useState([])
     const [carrinho, setCarrinho] = useState([])
+    const { setItens } = useContext(AuthContext)
 
     useEffect(async () => {
         
@@ -30,6 +32,8 @@ export default function Produtos(){
         setCarrinho(carro)
 
     }
+
+    setItens(carrinho)
 
     return(
         <div id='produtos'>

@@ -1,0 +1,19 @@
+#card-carrinho{
+
+    width: 38vw;
+    height: 20vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 10px 10px -2px #989898;
+    -moz-box-shadow: 0 10px 10px -2px #989898;
+    -webkit-box-shadow: 0 10px 10px -2px #989898;
+
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
